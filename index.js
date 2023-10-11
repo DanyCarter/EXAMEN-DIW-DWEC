@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calculateButton.addEventListener("click", () => {
 
         const width = parseFloat(document.getElementById("width").value);
-        const height = parseFloat(document.getElementById("height").value);
+        const height = parseFloat(document.getElementById("height").value);/* Los input siempre devuelven valores numericos por ellos hay q pasarlo a FLoat */
 
         if(!isNaN(height) && !isNaN(width)) {
             const area = width * height;
@@ -17,7 +17,5 @@ document.addEventListener("DOMContentLoaded", () => {
         
         } else {
             resultContainer.innerHTML = `Por favor ingrese valores validos`
-        }
-
-    })
+        } })
 })
