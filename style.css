@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    width: 175px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+div {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    height: 35px;
+    width: 85px;
+    margin: 5px;
+    border: none;
+}
