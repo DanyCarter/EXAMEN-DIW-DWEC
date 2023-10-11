@@ -1,11 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: center; /* Para centrar */
 }
 
 label {
     text-align: center;
-    font-weight: bold;
+    font-weight: bold;/* Para que salgan en negrita */
 }
 
 input {
